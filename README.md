@@ -15,19 +15,21 @@ In the practical part I learned a lot more new topics and "tools" I can use in t
 Another thing I  learn about the C language is some of her undefined behavior or some bugs that could happen and how to handle with them and avoid them.
 
 ## Functions:
-void PrintDesignedHeader(const char *_header)
-    • Print a designed header to console, usually of menu's of the program. 
-    • _header is the name of the text file that the designed header stored in.
-void PrintSimpleHeader(const char *_header,   FILE *_fp)
-    • Print a simple header to console and text files.
-    • _header is the the header to print.
-    • _fp is the name of the file. (could be stdout too).
-int Menu(const char *_menu[], int _numOfObjects, const char *_header)
-    • Function to print menu's in the program and get user input.
-    • _menu is the options to choose.
-    • _numOfObjects is counter of options in the menu.
-    • _header is the menu header.
-    • Returns key pressed (number) by the user.
+- void PrintDesignedHeader(const char *_header)
+    - Print a designed header to console, usually of menu's of the program. 
+    - _header is the name of the text file that the designed header stored in.
+   
+- void PrintSimpleHeader(const char *_header,   FILE *_fp)
+    - Print a simple header to console and text files.
+    - _header is the the header to print.
+    - _fp is the name of the file. (could be stdout too).
+    
+-int Menu(const char *_menu[], int _numOfObjects, const char *_header)
+    - Function to print menu's in the program and get user input.
+    - _menu is the options to choose.
+    - _numOfObjects is counter of options in the menu.
+    - _header is the menu header.
+    - Returns key pressed (number) by the user.
 
   int MainMenu()
     • Function that stores the main menu array of strings, call Menu and return the user input to main.
