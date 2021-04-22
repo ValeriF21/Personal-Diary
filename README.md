@@ -24,7 +24,7 @@ Another thing I  learn about the C language is some of her undefined behavior or
     - _header is the the header to print.
     - _fp is the name of the file. (could be stdout too).
     
--int Menu(const char *_menu[], int _numOfObjects, const char *_header)
+- int Menu(const char *_menu[], int _numOfObjects, const char *_header)
     - Function to print menu's in the program and get user input.
     - _menu is the options to choose.
     - _numOfObjects is counter of options in the menu.
